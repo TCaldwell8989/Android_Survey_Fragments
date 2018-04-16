@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Survey App With Fragments</string>
+    <string name="survey_question">Question</string>
+    <string name="first_answer">1st Answer</string>
+    <string name="second_answer">2nd Answer</string>
+    <string name="instructions">Enter a new survey question and answers</string>
+    <string name="results">Survey Results</string>
+    <string name="reset_survey">Reset Counts</string>
+    <string name="new_survey">Start New Survey</string>
+    <string name="ok">OK</string>
+    <string name="no">No!!!</string>
+
+</resources>
