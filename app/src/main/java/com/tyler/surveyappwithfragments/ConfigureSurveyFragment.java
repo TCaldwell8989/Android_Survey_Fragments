@@ -44,6 +44,7 @@ public class ConfigureSurveyFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
+                // Validate user has entered a question and answers
                 if (newQuestionText.getText().length() > 0 && newAnswerOneText.getText().length() > 0 &&
                         newAnswerTwoText.getText().length() > 0) {
                     String newQuestion = newQuestionText.getText().toString();

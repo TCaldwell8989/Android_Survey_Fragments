@@ -6,6 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+/**
+ * This program will display three fragments
+ * Survey Question Fragment - display question and answers
+ * Question Configuration Fragment - user can set new question with answers
+ * Survey Results Fragment - results displayed, can reset counts
+ */
 public class MainActivity extends AppCompatActivity implements
         SurveyQuestionDetailFragment.AddScoreListener,
         ConfigureSurveyFragment.NewQuestionListener {
@@ -17,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements
     private static final String CONFIG_SURVEY_FRAG_TAG = "CONFIG FRAGMENT";
     private static final String RESULTS_FRAG_TAG = "RESULTS FRAGMENT";
 
-    //Create instances of fragments
+    // Create instances of fragments
     SurveyQuestionDetailFragment detailFragment;
     SurveyResultsFragment resultsFragment;
     ConfigureSurveyFragment configureFragment;

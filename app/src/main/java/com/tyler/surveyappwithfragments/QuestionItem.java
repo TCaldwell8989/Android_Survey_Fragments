@@ -3,6 +3,9 @@ package com.tyler.surveyappwithfragments;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+/**
+ *  A class to hold a question and two answers
+ */
 public class QuestionItem implements Parcelable {
 
     private String question;
